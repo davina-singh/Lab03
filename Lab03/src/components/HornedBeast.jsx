@@ -4,9 +4,9 @@ export default function HornedBeast({
     title, 
     image_url, 
     description, 
-    handleShowModal 
+    handleShowModal,
 }) {
-
+    // const [stateVariable, mutationFunction] = useState(initialValue)
     const [likes, setLikes] = useState(0);
 
     function handleLikes() {
